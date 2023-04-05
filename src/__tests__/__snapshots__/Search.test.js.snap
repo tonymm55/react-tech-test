@@ -2,19 +2,23 @@
 
 exports[`Search renders correctly 1`] = `
 <DocumentFragment>
-  <form
-    class="search-form"
+  <div
+    class="search"
   >
-    <input
-      class="search-input"
-      type="text"
-    />
-    <button
-      class="search-btn"
-      type="submit"
+    <form
+      class="search-form"
     >
-      🚀
-    </button>
-  </form>
+      <input
+        class="search-input"
+        type="text"
+      />
+      <button
+        class="search-btn"
+        type="submit"
+      >
+        🚀
+      </button>
+    </form>
+  </div>
 </DocumentFragment>
 `;

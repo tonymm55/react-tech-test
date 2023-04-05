@@ -10,20 +10,24 @@ exports[`App renders correctly 1`] = `
       class="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
-    <form
-      class="search-form"
+    <div
+      class="search"
     >
-      <input
-        class="search-input"
-        type="text"
-      />
-      <button
-        class="search-btn"
-        type="submit"
+      <form
+        class="search-form"
       >
-        🚀
-      </button>
-    </form>
+        <input
+          class="search-input"
+          type="text"
+        />
+        <button
+          class="search-btn"
+          type="submit"
+        >
+          🚀
+        </button>
+      </form>
+    </div>
   </div>
 </DocumentFragment>
 `;
