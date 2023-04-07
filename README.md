@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# Command Shift NASA Images 'Tech-Test"
+
+This project is a technical test similar to what may be given when applying for a junior developer role. The test is intended to familiarise the student with the scope and timescale of such a test.
 
 This tech-test project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Technical Task Description 
 
+To design, build and test a search page in the browser which allows users to search for NASA images by a keyword utilising the NASA image API.
+
+**Brief:**
+* Build a React web application that allows users to search for images based on a query relating to space.
+* Images must be returned upon a successful search.
+* The styling is up to the designer but will be taken into consideration when evaluating the application.
 In the project directory, you can run:
+
+## Screenshots
+
+
 
 ### `npm start`
 

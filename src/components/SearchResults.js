@@ -2,7 +2,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import "../styles/search-results.css";
-// import getImages from '../requests/getImages';
 
 const SearchResults = ({ results }) => {
   if (!results || !results.length) {
