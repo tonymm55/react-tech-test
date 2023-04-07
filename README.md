@@ -2,8 +2,6 @@
 
 This project is a technical test similar to what may be given when applying for a junior developer role. The test is intended to familiarise the student with the scope and timescale of such a test.
 
-This tech-test project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Technical Task Description 
 
 To design, build and test a search page in the browser which allows users to search for NASA images by a keyword utilising the NASA image API.
@@ -12,14 +10,46 @@ To design, build and test a search page in the browser which allows users to sea
 * Build a React web application that allows users to search for images based on a query relating to space.
 * Images must be returned upon a successful search.
 * The styling is up to the designer but will be taken into consideration when evaluating the application.
-In the project directory, you can run:
 
 ## Screenshots
 
 ![Mobile Version](./src/__screenshots__/mobile-nasa.png)
+Mobile version
 ![Desktop Version](./src/__screenshots__/desktop-nasa.png)
+Desktop version
 
-### `npm start`
+## Built with
+
+This application was built using the [React](https://reactjs.org/) library using a functional component approach.
+
+## Testing Libraries
+
+I used a Test Driven Development approach when it came to testing the application, first building the component and implementing the required features, and then testing against the requirements and acceptance criteria.
+
+**Testing libraries include:**
+
+* [Jest](https://jestjs.io/)
+* [React Testing Library](https://testing-library.com/)
+
+## Packages Used
+
+In addition to the testing libraries mentioned above:
+
+* ESLint - used to follow industry standard rules with some slight configurations.
+* Prettier - used to ensure consistency in code formatting.
+* Prop Types - used to type check this React application and catch errors before runtime.
+* Axios - used to make requests to the NASA API endpoint.
+
+## Installation Instructions
+
+* Clone this repo
+  * e.g. `gitclone https://github.com/tonymm55/tech-test.git
+* Change directory into the repo
+  * e.g. `cd tech-test` (or the directory you specified the repo to be cloned into)
+* Install the dependencies from `package-lock.json`
+  * `npm install`
+* To start the app:
+  * `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -27,57 +57,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+* To test the app:
+  * `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## If I Had More Time
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I would like to implement:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Add more functionality to the site to include advanced search features for improved search results. The search results are rudimentary currently and I'd like to investigate what the search results are based on.
+* Write more tests to ensure the application is robust and stable.
+* Add some UI helpers such as providing the user with some tags that they can click to search common terms.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was authored by Anthony Moran. I can be contacted at [LinkedIn](linkedin.com/in/anthonymmoran) and [Twitter](https://twitter.com/TonyMCodes).
