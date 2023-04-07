@@ -13,7 +13,7 @@ const SearchResults = ({ results }) => {
             <div className="search-results">
               {results.map((image) => (
                 <img
-                key={image.id}
+                key={image}
                 className="card-image"
                 src={image}
                 alt="spaceImage"
