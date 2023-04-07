@@ -1,6 +1,6 @@
 # Command Shift NASA Images 'Tech-Test"
 
-This project is a technical test similar to what may be given when applying for a junior developer role. The test is intended to familiarise the student with the scope and timescale of such a test.
+This project is a technical test similar to what may be given when applying for a junior software developer role. The test is intended to familiarise the student with the scope and timescale of such a test.
 
 ## Technical Task Description 
 
@@ -9,22 +9,25 @@ To design, build and test a search page in the browser which allows users to sea
 **Brief:**
 * Build a React web application that allows users to search for images based on a query relating to space.
 * Images must be returned upon a successful search.
-* The styling is up to the designer but will be taken into consideration when evaluating the application.
+* The styling is left to the designer but will be taken into consideration when evaluating the application.
 
 ## Screenshots
 
 ![Mobile Version](./src/__screenshots__/mobile-nasa.png)
-Mobile version
+
+**Mobile Version**
+
 ![Desktop Version](./src/__screenshots__/desktop-nasa.png)
-Desktop version
+
+**Desktop Version**
 
 ## Built with
 
-This application was built using the [React](https://reactjs.org/) library using a functional component approach.
+This application was built using the [React](https://reactjs.org/) library with a functional component based approach.
 
 ## Testing Libraries
 
-I used a Test Driven Development approach when it came to testing the application, first building the component and implementing the required features, and then testing against the requirements and acceptance criteria.
+I used a Test Driven Development (TDD) approach when it came to testing the application, first building the component and implementing the required features, and then testing against the requirements to ensure the application met the criteria of the brief.
 
 **Testing libraries include:**
 
@@ -43,7 +46,7 @@ In addition to the testing libraries mentioned above:
 ## Installation Instructions
 
 * Clone this repo
-  * e.g. `gitclone https://github.com/tonymm55/tech-test.git
+  * e.g. `gitclone https://github.com/tonymm55/tech-test.git`
 * Change directory into the repo
   * e.g. `cd tech-test` (or the directory you specified the repo to be cloned into)
 * Install the dependencies from `package-lock.json`
@@ -68,7 +71,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 I would like to implement:
 
 * Add more functionality to the site to include advanced search features for improved search results. The search results are rudimentary currently and I'd like to investigate what the search results are based on.
-* Write more tests to ensure the application is robust and stable.
+* Write more comprehensive tests to ensure the application is robust, stable and feature tested.
 * Add some UI helpers such as providing the user with some tags that they can click to search common terms.
 
 ## Author
