@@ -16,7 +16,8 @@ In the project directory, you can run:
 
 ## Screenshots
 
-
+![Mobile Version](./__screenshots__/mobile-nasa.png)
+![Desktop Version](./__screenshots__/desktop-nasa.png)
 
 ### `npm start`
 
