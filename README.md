@@ -1,4 +1,4 @@
-# Command Shift NASA Images 'Tech-Test"
+# NASA Images API Application
 
 This project is a technical test similar to what may be given when applying for a junior software developer role. The test is intended to familiarise the student with the scope and timescale of such a test.
 
